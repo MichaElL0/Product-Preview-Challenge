@@ -1,0 +1,103 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: "Montserrat"; */
+    /* font-family: "Fraunces"; */
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+
+    p {
+        font-size: 14px;
+    }
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --Dark-cyan:  hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    --Dark-blue: hsl(212, 21%, 14%);
+    --Dark-greyish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--Cream);
+}
+
+.container, button {
+    font-family: "Montserrat";
+}
+
+
+h1, .prices {
+    font-family: "Fraunces";
+    line-height: 1;
+}
+
+h2 {
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+p, del, h2 {
+    color: var(--Dark-greyish-blue);
+}
+
+span {
+    color: var(--Dark-cyan);
+}
+
+button {
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+}
+
+button img {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.text-container {
+    width: 50%;
+    background-color: var(--White);
+}
+
+.image-container {
+    width: 50%;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0; 
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+}
+
+
