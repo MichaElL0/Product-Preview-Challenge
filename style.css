@@ -4,8 +4,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    /* font-family: "Montserrat"; */
-    /* font-family: "Fraunces"; */
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -51,11 +49,13 @@ body {
 h1, .prices {
     font-family: "Fraunces";
     line-height: 1;
+    width: 70%;
+    margin-top: 1.2rem;
 }
 
 h2 {
     font-weight: 500;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
     font-size: 14px;
 }
 
@@ -63,34 +63,83 @@ p, del, h2 {
     color: var(--Dark-greyish-blue);
 }
 
+.text-container p {
+    /* width: 55%; */
+    width: 25ch;
+}
+
 span {
     color: var(--Dark-cyan);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+del {
+    margin-left: 1.3rem;
+}
+
+
+.prices {
+    display: flex;
+    align-items: center;
 }
 
 button {
     background-color: var(--Dark-cyan);
     color: var(--White);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 24%);
+}
+
+button:active {
+    font-weight: 800;
 }
 
 button img {
     display: inline-block;
+    margin-right: 10px;
+}
+
+h1 {
+    min-width: 10ch;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
-}
-
-.text-container {
-    width: 50%;
-    background-color: var(--White);
+    width: max(40vw, 475px);
 }
 
 .image-container {
-    width: 50%;
+    width: max(50%, 350px);
+    flex: 1;
 }
+
+.text-container {
+    background-color: var(--White);
+    width: max(50%, 350px);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.text-container > * {
+    /* width: 20%; */
+    margin: 1.1rem;
+}
+
 
 .attribution {
     position: fixed;
@@ -99,5 +148,6 @@ button img {
     text-align: center;
     width: 100%;
 }
+
 
 
