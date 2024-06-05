@@ -157,3 +157,33 @@ h1 {
 .button {
     margin-bottom: 1.1rem;
 }
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        width: max(50%, 375px);
+        height: 90vh;
+    }
+
+    .text-container {
+        width: 100%;
+        height: 62%;
+        overflow:auto;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 38%;
+        
+        img {
+            width: 100%;
+        }
+    }
+
+    h1 {
+        min-width: 15ch;
+    }
+}
