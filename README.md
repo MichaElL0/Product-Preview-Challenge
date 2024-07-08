@@ -10,6 +10,7 @@ I made it with only HTML5 and CSS with layout being made with Flexbox.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Experience
+While doing this project I flexed ;) my layout and responsive design. 
 
 
