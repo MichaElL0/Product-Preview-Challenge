@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge made by me, Mik. It was fun to do and good challenge to test my growing skills.
+Thanks for checking out this front-end coding challenge made by me, Mik. It was fun to do and a good challenge to test my growing skills.
 
 I made it with only HTML5 and CSS with layout being made with Flexbox.
 
